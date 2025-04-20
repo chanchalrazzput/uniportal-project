@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniportal - Your Event Management Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-calendar-alt"></i>
+                <h1>Uniportal</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="events.html"><i class="fas fa-calendar-week"></i> Events</a></li>
+                <li><a href="create-event.html"><i class="fas fa-plus-circle"></i> Create Event</a></li>
+                <li><button id="logoutBtn" class="btn-logout">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </button></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Uniportal</h2>
+                <p>Your one-stop platform for discovering and creating amazing events</p>
+                <div class="cta-buttons">
+                    <a href="register.html" class="btn-primary">Get Started</a>
+                    <a href="events.html" class="btn-secondary">Browse Events</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <a href="#features" class="scroll-down">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Why Choose Uniportal?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/up1.jpg" alt="Easy Event Creation">
+                    </div>
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Easy Event Creation</h3>
+                    <p>Create and manage your events with our intuitive platform</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/up2.jpg" alt="Smart Search">
+                    </div>
+                    <i class="fas fa-search"></i>
+                    <h3>Smart Search</h3>
+                    <p>Find events based on keywords, themes, and locations</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="/images/up3.png" alt="Community Driven">
+                    </div>
+                    <i class="fas fa-users"></i>
+                    <h3>Community Driven</h3>
+                    <p>Connect with proposers and end-users in one place</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>1000+</h3>
+                    <p>Events Created</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-user-friends"></i>
+                    <h3>5000+</h3>
+                    <p>Active Users</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>50+</h3>
+                    <p>Locations</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-star"></i>
+                    <h3>4.8/5</h3>
+                    <p>User Rating</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-image">
+                        <img src="images/up4.jpg" alt="Register">
+                    </div>
+                    <div class="step-number">1</div>
+                    <h3>Register</h3>
+                    <p>Create your account as a proposer or end-user</p>
+                </div>
+                <div class="step">
+                    <div class="step-image">
+                        <img src="images/up5.jpg" alt="Explore or Create">
+                    </div>
+                    <div class="step-number">2</div>
+                    <h3>Explore or Create</h3>
+                    <p>Browse events or create your own</p>
+                </div>
+                <div class="step">
+                    <div class="step-image">
+                        <img src="images/up6.png" alt="Connect">
+                    </div>
+                    <div class="step-number">3</div>
+                    <h3>Connect</h3>
+                    <p>Engage with the community and participate</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Uniportal has revolutionized how I organize events. The platform is intuitive and user-friendly."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/images/john doe.jpg" alt="User 1">
+                        <div>
+                            <h4>John Doe</h4>
+                            <p>Event Proposer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Finding events has never been easier. The search filters are incredibly helpful!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/images/jane smith.jpeg" alt="User 2">
+                        <div>
+                            <h4>Jane Smith</h4>
+                            <p>End User</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Join our community of event enthusiasts today</p>
+                <div class="cta-buttons">
+                    <a href="register.html" class="btn-primary">Create Account</a>
+                    <a href="events.html" class="btn-secondary">Explore Events</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Uniportal</h3>
+                <p>Your event management platform</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@uniportal.com</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Event Street, City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Uniportal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation on scroll
+        const animateOnScroll = function() {
+            const elements = document.querySelectorAll('.feature-card, .step, .testimonial-card, .stat-item');
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (elementPosition < windowHeight - 100) {
+                    element.classList.add('animate-fadeIn');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+    </script>
+
+    <script src="js/auth.js"></script>
+</body>
+</html> 
